@@ -1,0 +1,94 @@
+{
+    "contacts": [{
+            "id": 0,
+            "firstName": "Johnny",
+            "lastName": "Cash",
+            "address": "Nashville, TN",
+            "occupation": "singer",
+            "phoneNumber": "12345",
+            "email": "cash@hotmail.com"
+        },
+        {
+            "id": 1,
+            "firstName": "Elvis",
+            "lastName": "Presley",
+            "address": "Memphis, TN",
+            "occupation": "singer",
+            "phoneNumber": "123456",
+            "email": "graceland@hotmail.com"
+        },
+        {
+            "id": 2,
+            "firstName": "Zac",
+            "lastName": "Brown",
+            "address": "Atlanta, GA",
+            "occupation": "singer",
+            "phoneNumber": "134546",
+            "email": "zacbrown@hotmail.com"
+        },
+        {
+            "id": 3,
+            "firstName": "Anthony",
+            "lastName": "Bourdain",
+            "address": "Queens, NY",
+            "occupation": "chef",
+            "phoneNumber": "12256",
+            "email": "Abourd@hotmail.com"
+        },
+        {
+            "id": 4,
+            "firstName": "Cam",
+            "lastName": "Newton",
+            "address": "Atlanata, GA",
+            "occupation": "Pro Athlete",
+            "phoneNumber": "333555",
+            "email": "CamCam@hotmail.com"
+        },
+        {
+            "id": 5,
+            "firstName": "Michael",
+            "lastName": "Jordan",
+            "address": "Charlotte, TN",
+            "occupation": "Hornets CEO",
+            "phoneNumber": "553456",
+            "email": "airjordan@hotmail.com"
+        },
+        {
+            "id": 6,
+            "firstName": "Chares",
+            "lastName": "Barkley",
+            "address": "Nashville, TN",
+            "occupation": "analyst",
+            "phoneNumber": "888456",
+            "email": "TntNBA@hotmail.com"
+        },
+        {
+            "id": 7,
+            "firstName": "Kobe",
+            "lastName": "Bryant",
+            "address": "Los Angeles, CA",
+            "occupation": "CEO",
+            "phoneNumber": "122356",
+            "email": "blkMamba@hotmail.com"
+        },
+        {
+            "id": 8,
+            "firstName": "DJ",
+            "lastName": "Khalid",
+            "address": "Miami, FL",
+            "occupation": "producer",
+            "phoneNumber": "1333256",
+            "email": "weda1@hotmail.com"
+        },
+        {
+            "id": 9,
+            "firstName": "Steph",
+            "lastName": "Curry",
+            "address": "Charlotte, NC",
+            "occupation": "Pro Athlete",
+            "phoneNumber": "1111156",
+            "email": "3stephc@hotmail.com"
+        },
+        
+    ]
+}
