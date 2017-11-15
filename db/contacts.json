@@ -5,7 +5,7 @@
             "lastName": "Cash",
             "address": "Nashville, TN",
             "occupation": "singer",
-            "phoneNumber": "12345",
+            "phoneNumber": 12345,
             "email": "cash@hotmail.com"
         },
         {
@@ -14,7 +14,7 @@
             "lastName": "Presley",
             "address": "Memphis, TN",
             "occupation": "singer",
-            "phoneNumber": "123456",
+            "phoneNumber": 123456,
             "email": "graceland@hotmail.com"
         },
         {
@@ -23,7 +23,7 @@
             "lastName": "Brown",
             "address": "Atlanta, GA",
             "occupation": "singer",
-            "phoneNumber": "134546",
+            "phoneNumber": 134546,
             "email": "zacbrown@hotmail.com"
         },
         {
@@ -32,7 +32,7 @@
             "lastName": "Bourdain",
             "address": "Queens, NY",
             "occupation": "chef",
-            "phoneNumber": "12256",
+            "phoneNumber": 12256,
             "email": "Abourd@hotmail.com"
         },
         {
@@ -41,7 +41,7 @@
             "lastName": "Newton",
             "address": "Atlanata, GA",
             "occupation": "Pro Athlete",
-            "phoneNumber": "333555",
+            "phoneNumber": 333555,
             "email": "CamCam@hotmail.com"
         },
         {
@@ -50,7 +50,7 @@
             "lastName": "Jordan",
             "address": "Charlotte, TN",
             "occupation": "Hornets CEO",
-            "phoneNumber": "553456",
+            "phoneNumber": 553456,
             "email": "airjordan@hotmail.com"
         },
         {
@@ -59,7 +59,7 @@
             "lastName": "Barkley",
             "address": "Nashville, TN",
             "occupation": "analyst",
-            "phoneNumber": "888456",
+            "phoneNumber": 888456,
             "email": "TntNBA@hotmail.com"
         },
         {
@@ -68,7 +68,7 @@
             "lastName": "Bryant",
             "address": "Los Angeles, CA",
             "occupation": "CEO",
-            "phoneNumber": "122356",
+            "phoneNumber": 122356,
             "email": "blkMamba@hotmail.com"
         },
         {
@@ -77,7 +77,7 @@
             "lastName": "Khalid",
             "address": "Miami, FL",
             "occupation": "producer",
-            "phoneNumber": "1333256",
+            "phoneNumber": 1333256,
             "email": "weda1@hotmail.com"
         },
         {
@@ -86,7 +86,7 @@
             "lastName": "Curry",
             "address": "Charlotte, NC",
             "occupation": "Pro Athlete",
-            "phoneNumber": "1111156",
+            "phoneNumber": 1111156,
             "email": "3stephc@hotmail.com"
         }
         
