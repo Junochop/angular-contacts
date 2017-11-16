@@ -6,7 +6,7 @@ app.controller("LoginCtrl", function($location, $scope,  $rootScope, LoginServic
 		LoginService.authenticateGoogle().then((result) => {
 		$rootScope.uid = result.user.uid;
 		$scope.$apply(()=> {
-			$location.url("/favorites");
+			$location.url("contacts/favorites");
 		});
 		
 			console.log(result);
