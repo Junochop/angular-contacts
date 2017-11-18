@@ -7,6 +7,8 @@
 </head>
 <body ng-app="ContactsApp">
   
+  <div ng-include="'./partials/navbar.html'"></div>
+
   <div class="col-xs-8 col-xs-offset-2" ng-view></div>
   <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
   <script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
@@ -21,7 +23,7 @@
 
   <script type="text/javascript" src="./javascripts/services/LoginService.js"></script>
   
-  
+  <script type="text/javascript" src="./javascripts/controllers/NavbarCtrl.js"></script> 
   <script type="text/javascript" src="./javascripts/controllers/LoginCtrl.js"></script>
   <script type="text/javascript" src="./javascripts/controllers/contacts/FavoritesCtrl.js"></script>
   <script type="text/javascript" src="./javascripts/controllers/contacts/NewCtrl.js"></script>

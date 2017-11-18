@@ -6,6 +6,14 @@ app.service("LoginService", function(){
     	return firebase.auth().signInWithPopup(provider);
 	};
 
+		const isAuthenticated = () => {
+   		return firebase.auth().currentUser ? true : false;
+
+	};
+		const logout = () => {
+   		firebase.auth().signOut();
+	};
+
 	return {authenticateGoogle};
 
 });

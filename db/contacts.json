@@ -1,0 +1,95 @@
+{
+	"contacts": {
+		"contact0": {
+			"uid": 0,
+			"firstName": "Johnny",
+			"lastName": "Cash",
+			"address": "Nashville, TN",
+			"occupation": "singer",
+			"phoneNumber": 12345,
+			"email": "cash@hotmail.com"
+		},
+		"contact1": {
+			"uid": "",
+			"firstName": "Elvis",
+			"lastName": "Presley",
+			"address": "Memphis, TN",
+			"occupation": "singer",
+			"phoneNumber": 123456,
+			"email": "graceland@hotmail.com"
+		},
+		"contact2": {
+			"uid": "",
+			"firstName": "Zac",
+			"lastName": "Brown",
+			"address": "Atlanta, GA",
+			"occupation": "singer",
+			"phoneNumber": 134546,
+			"email": "zacbrown@hotmail.com"
+		},
+		"contact3": {
+			"uid": "asdf223cv",
+			"firstName": "Anthony",
+			"lastName": "Bourdain",
+			"address": "Queens, NY",
+			"occupation": "chef",
+			"phoneNumber": 12256,
+			"email": "Abourd@hotmail.com"
+		},
+		"contact4": {
+			"uid": "asdf23cxcv",
+			"firstName": "Cam",
+			"lastName": "Newton",
+			"address": "Atlanata, GA",
+			"occupation": "Pro Athlete",
+			"phoneNumber": 333555,
+			"email": "CamCam@hotmail.com"
+		},
+		"contacts5": {
+			"uid": "jk2h87h",
+			"firstName": "Michael",
+			"lastName": "Jordan",
+			"address": "Charlotte, TN",
+			"occupation": "Hornets CEO",
+			"phoneNumber": 553456,
+			"email": "airjordan@hotmail.com"
+		},
+		"contact6": {
+			"uid": "sadkjbiu23",
+			"firstName": "Chares",
+			"lastName": "Barkley",
+			"address": "Nashville, TN",
+			"occupation": "analyst",
+			"phoneNumber": 888456,
+			"email": "TntNBA@hotmail.com"
+		},
+		"contact7": {
+			"uid": "asdf434sd",
+			"firstName": "Kobe",
+			"lastName": "Bryant",
+			"address": "Los Angeles, CA",
+			"occupation": "CEO",
+			"phoneNumber": 122356,
+			"email": "blkMamba@hotmail.com"
+		},
+		"contact8": {
+			"uid": "kjbnzbo12",
+			"firstName": "DJ",
+			"lastName": "Khalid",
+			"address": "Miami, FL",
+			"occupation": "producer",
+			"phoneNumber": 1333256,
+			"email": "weda1@hotmail.com"
+		},
+		"contact9": {
+			"uid": "sdaf",
+			"firstName": "Steph",
+			"lastName": "Curry",
+			"address": "Charlotte, NC",
+			"occupation": "Pro Athlete",
+			"phoneNumber": 1111156,
+			"email": "3stephc@hotmail.com"
+		}
+	}
+
+}
