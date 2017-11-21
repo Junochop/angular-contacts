@@ -1,9 +1,26 @@
-<div class="text-center" id="new" ng-controller="new">
-	<h1>New</h1>
-	<form>
-    <label>Name:
-      <input type="text" ng-model="user.name" ng-model-options="{ updateOn: 'blur' }" /></label><br />
+<div class="text-center" id="new" ng-controller="new" ng-validate="required">
+	<h1>New Contact Form</h1>
+  <form>
     <label>
-    Other data:
-    <input type="text" ng-model="user.data" /></label><br />
+    First Name:
+    <input type="text" ng-model="newContact.firstName" ng-model-options="{ updateOn: 'blur' }" required/></label><br />
+    <label>
+    Last Name:
+    <input type="text" ng-model="newContact.lastName" required /></label><br />
+    <label>
+    Favorite Color:
+    <input type="text" ng-model="newContact.favoriteColor" required/></label><br />
+    <label>
+    Occupation:
+    <input type="text" ng-model="newContact.occupation" required /></label><br />
+    <label>
+    Phone Number:
+    <input type="text" ng-model="newContact.phoneNumber" required /></label><br />
+    <label>
+    Email:
+    <input type="text" ng-model="newContact.email" required/></label><br />
+    <button class="btn btn-default" ng-click="buttonSubmit()">Submit</button>
+
+  </form>
+
 </div>

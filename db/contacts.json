@@ -4,7 +4,7 @@
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Johnny",
 			"lastName": "Cash",
-			"address": "Nashville, TN",
+			"favoriteColor": "blue",
 			"occupation": "singer",
 			"phoneNumber": 7046089098,
 			"email": "cash@hotmail.com"
@@ -13,7 +13,7 @@
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Elvis",
 			"lastName": "Presley",
-			"address": "Memphis, TN",
+			"favoriteColor": "white",
 			"occupation": "singer",
 			"phoneNumber": 7076089796,
 			"email": "graceland@hotmail.com"
@@ -22,7 +22,7 @@
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Zac",
 			"lastName": "Brown",
-			"address": "Atlanta, GA",
+			"favoriteColor": "black",
 			"occupation": "singer",
 			"phoneNumber": 7016089796,
 			"email": "zacbrown@hotmail.com"
@@ -31,7 +31,7 @@
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Anthony",
 			"lastName": "Bourdain",
-			"address": "Queens, NY",
+			"favoriteColor": "green",
 			"occupation": "chef",
 			"phoneNumber": 7026089796,
 			"email": "Abourd@hotmail.com"
@@ -40,7 +40,7 @@
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Cam",
 			"lastName": "Newton",
-			"address": "Atlanata, GA",
+			"favoriteColor": "orange",
 			"occupation": "Pro Athlete",
 			"phoneNumber": 7036089796,
 			"email": "CamCam@hotmail.com"
@@ -49,7 +49,7 @@
 			"uid": "jhyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "Michael",
 			"lastName": "Jordan",
-			"address": "Charlotte, TN",
+			"favoriteColor": "green",
 			"occupation": "Hornets CEO",
 			"phoneNumber": 7049089796,
 			"email": "airjordan@hotmail.com"
@@ -58,7 +58,7 @@
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "Chares",
 			"lastName": "Barkley",
-			"address": "Nashville, TN",
+			"favoriteColor": "yellow",
 			"occupation": "analyst",
 			"phoneNumber": 7045089796,
 			"email": "TntNBA@hotmail.com"
@@ -67,7 +67,7 @@
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "Kobe",
 			"lastName": "Bryant",
-			"address": "Los Angeles, CA",
+			"favoriteColor": "sand",
 			"occupation": "CEO",
 			"phoneNumber": 703606996,
 			"email": "blkMamba@hotmail.com"
@@ -76,7 +76,7 @@
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "DJ",
 			"lastName": "Khalid",
-			"address": "Miami, FL",
+			"favoriteColor": "purple",
 			"occupation": "producer",
 			"phoneNumber": 7026089796,
 			"email": "weda1@hotmail.com"
@@ -85,7 +85,7 @@
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "Steph",
 			"lastName": "Curry",
-			"address": "Charlotte, NC",
+			"favoriteColor": "pink",
 			"occupation": "Pro Athlete",
 			"phoneNumber": 7046129796,
 			"email": "3stephc@hotmail.com"

@@ -14,6 +14,6 @@ app.service("LoginService", function(){
    		firebase.auth().signOut();
 	};
 
-	return {authenticateGoogle};
+	return {authenticateGoogle, isAuthenticated, logout};
 
 });
