@@ -1,4 +1,22 @@
 <div class="text-center" id="view">
-	<h1>View</h1>
-	{{controller}}
+	
+<!-- forEach (aka loop) we use ng-repeat, from contacts call new item to contact when creating a card(s)-->
+
 </div>
+  <div id="contact"></div>
+	<div ng-repeat="contact in contacts" class="col-sm-8 col-md-4">
+	  <div class="thumbnail">
+		<button class="btn btn-warning" ng-click="deleteContact(contact.id)">delete</button>
+			<div class="cardInfo">
+			  <h5>Name: {{contact.firstName}} {{contact.lastName}}</h5>
+			  <p>Phone: {{contact.phoneNumber}}</p>
+			  <p>Email: {{contact.email}}</p>
+			  <p>Favorite Color: {{contact.favoriteColor}}</p>
+			  <p>Occupation: {{contact.occupation}}</p>
+					
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+

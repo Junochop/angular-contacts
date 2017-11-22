@@ -3,7 +3,8 @@
 app.service("contactService", function($http, $q, FIREBASE_CONFIG){
 	const getContacts = (userUid) => {
     	console.log("userUid", userUid);
-    	        let myContacts = [];
+
+    	let myContacts = [];
         return $q((resolve, reject) => {
             $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
                 let contacts = results.data;
