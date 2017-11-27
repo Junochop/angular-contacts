@@ -1,93 +1,93 @@
 {
 	"contacts": {
 		"contact0": {
-			"uid": 0,
+			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Johnny",
 			"lastName": "Cash",
-			"address": "Nashville, TN",
+			"favoriteColor": "blue",
 			"occupation": "singer",
-			"phoneNumber": 12345,
+			"phoneNumber": 7046089098,
 			"email": "cash@hotmail.com"
 		},
 		"contact1": {
-			"uid": "",
+			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Elvis",
 			"lastName": "Presley",
-			"address": "Memphis, TN",
+			"favoriteColor": "white",
 			"occupation": "singer",
-			"phoneNumber": 123456,
+			"phoneNumber": 7076089796,
 			"email": "graceland@hotmail.com"
 		},
 		"contact2": {
-			"uid": "",
+			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Zac",
 			"lastName": "Brown",
-			"address": "Atlanta, GA",
+			"favoriteColor": "black",
 			"occupation": "singer",
-			"phoneNumber": 134546,
+			"phoneNumber": 7016089796,
 			"email": "zacbrown@hotmail.com"
 		},
 		"contact3": {
-			"uid": "asdf223cv",
+			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Anthony",
 			"lastName": "Bourdain",
-			"address": "Queens, NY",
+			"favoriteColor": "green",
 			"occupation": "chef",
-			"phoneNumber": 12256,
+			"phoneNumber": 7026089796,
 			"email": "Abourd@hotmail.com"
 		},
 		"contact4": {
-			"uid": "asdf23cxcv",
+			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
 			"firstName": "Cam",
 			"lastName": "Newton",
-			"address": "Atlanata, GA",
+			"favoriteColor": "orange",
 			"occupation": "Pro Athlete",
-			"phoneNumber": 333555,
+			"phoneNumber": 7036089796,
 			"email": "CamCam@hotmail.com"
 		},
 		"contacts5": {
-			"uid": "jk2h87h",
+			"uid": "jhyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "Michael",
 			"lastName": "Jordan",
-			"address": "Charlotte, TN",
+			"favoriteColor": "green",
 			"occupation": "Hornets CEO",
-			"phoneNumber": 553456,
+			"phoneNumber": 7049089796,
 			"email": "airjordan@hotmail.com"
 		},
 		"contact6": {
-			"uid": "sadkjbiu23",
+			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "Chares",
 			"lastName": "Barkley",
-			"address": "Nashville, TN",
+			"favoriteColor": "yellow",
 			"occupation": "analyst",
-			"phoneNumber": 888456,
+			"phoneNumber": 7045089796,
 			"email": "TntNBA@hotmail.com"
 		},
 		"contact7": {
-			"uid": "asdf434sd",
+			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "Kobe",
 			"lastName": "Bryant",
-			"address": "Los Angeles, CA",
+			"favoriteColor": "sand",
 			"occupation": "CEO",
-			"phoneNumber": 122356,
+			"phoneNumber": 703606996,
 			"email": "blkMamba@hotmail.com"
 		},
 		"contact8": {
-			"uid": "kjbnzbo12",
+			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "DJ",
 			"lastName": "Khalid",
-			"address": "Miami, FL",
+			"favoriteColor": "purple",
 			"occupation": "producer",
-			"phoneNumber": 1333256,
+			"phoneNumber": 7026089796,
 			"email": "weda1@hotmail.com"
 		},
 		"contact9": {
-			"uid": "sdaf",
+			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
 			"firstName": "Steph",
 			"lastName": "Curry",
-			"address": "Charlotte, NC",
+			"favoriteColor": "pink",
 			"occupation": "Pro Athlete",
-			"phoneNumber": 1111156,
+			"phoneNumber": 7046129796,
 			"email": "3stephc@hotmail.com"
 		}
 	}
