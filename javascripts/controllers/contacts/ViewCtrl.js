@@ -24,19 +24,22 @@ app.controller("ViewCtrl", function($location, $rootScope, $scope, contactServic
 
 
 
-	$scope.favoriteContact = (contactId) => {
-		contactId.uid = $rootScope.uid;
-		contactId.isFavorite = false;
-		
-		let newFavoriteContact = contactService.createContactObject(contactId);
-		console.log("ContactId", contactId);
+	$scope.favoriteContact = (contact) => {
+		//contactId.uid = $rootScope.uid;
+		contact.isFavorite = !contact.isFavorite;
+		delete contact.$$hashKey;
+
+		let newFavoriteContact = contactService.createContactObject(contact);
+		console.log("Contact", contact);
 		//
 		
-		contactService.putNewContact(contactId).then((result) => {
-			$location.path('/favorites');
+		contactService.putNewContact(contact).then((result) => {
+			$location.path('/contacts/favorites');
 		}).catch((err) => {
 			console.log("error in putNewContact", err);
 		});
+
+	
 	};
 
 

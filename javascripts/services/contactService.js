@@ -31,7 +31,7 @@ app.service("contactService", function($http, $q, FIREBASE_CONFIG){
     };
 
     const favoriteContact = (contactId) => {
-        return $http.post(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
+        return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
     };
 
     

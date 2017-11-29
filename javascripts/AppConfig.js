@@ -1,7 +1,28 @@
 'use strict';
-//app config runs one time. no fat arrow
-app.run(function(FIREBASE_CONFIG) {
-	firebase.initializeApp(FIREBASE_CONFIG);
+
+let isAuth = (LoginService) => new Promise ((resolve, reject) => {
+ if(LoginService.isAuthenticated()){
+   resolve();
+ } else {
+   reject();
+ }
+});
+
+app.run(function($location, $rootScope, FIREBASE_CONFIG, LoginService){
+ firebase.initializeApp(FIREBASE_CONFIG);
+
+ $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute) {
+   var logged = LoginService.isAuthenticated();
+   var appTo;
+   if (currRoute.originalPath) {
+     appTo = currRoute.originalPath.indexOf('/login') !== -1;
+   }
+   if (!appTo && !logged) {
+     event.preventDefault();
+     $location.path('/login');
+   }
+ });
+
 });
 
 app.config(function($routeProvider){
