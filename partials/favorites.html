@@ -1,4 +1,11 @@
 <div class="text-center" id="favorites">	
 	<h1>Favorites</h1>
-	{{controller}}	
+	<div id="favorite">
+      <div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 favorite">
+        <div class="thumbnail">
+          <button class="btn btn-default delete" ng-click="deleteConctact(contact.id)">X</button>
+      
+        </div>
+      </div>
+    </div>
 </div>

@@ -30,7 +30,33 @@ app.service("contactService", function($http, $q, FIREBASE_CONFIG){
         return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
     };
 
-    return {addNewContact, getContacts, deleteContact};
+    const favoriteContact = (contactId) => {
+        return $http.post(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
+    };
+
+    
+    const putNewContact = (newContact) => {
+  	return $http.post(`${FIREBASE_CONFIG.databaseURL}/Contacts.json`, JSON.stringify(newContact));
+  	//no mods required so no q involved when data is returning
+
+  };
+
+
+    const createContactObject = (contact) => {
+		return {
+			"email": contact.email,
+			"favoriteColor": contact.favoriteColor,
+			"firstName": contact.firstName,
+			"lastName": contact.lastName,
+			"occupation": contact.occupation,
+			"phoneNumber": contact.phoneNumber,
+			"isFavorite": contact.isFavorite,
+			"uid": contact.uid
+		};
+	};
+
+
+    return {addNewContact, getContacts, deleteContact, favoriteContact, putNewContact, createContactObject};
 });
 
 

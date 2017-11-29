@@ -21,4 +21,23 @@ app.controller("ViewCtrl", function($location, $rootScope, $scope, contactServic
 			console.log("error in deleteContact", err);
 		});
 	};
+
+
+
+	$scope.favoriteContact = (contactId) => {
+		contactId.uid = $rootScope.uid;
+		contactId.isFavorite = false;
+		
+		let newFavoriteContact = contactService.createContactObject(contactId);
+		console.log("ContactId", contactId);
+		//
+		
+		contactService.putNewContact(contactId).then((result) => {
+			$location.path('/favorites');
+		}).catch((err) => {
+			console.log("error in putNewContact", err);
+		});
+	};
+
+
 });
