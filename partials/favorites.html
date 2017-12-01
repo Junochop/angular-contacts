@@ -3,9 +3,10 @@
 	<div id="favorite">
       <div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 favorite">
         <div class="thumbnail">
-          <button class="btn btn-default delete" ng-click="deleteConctact(contact.id)">X</button>
-      
-        </div>
-      </div>
-    </div>
+		  <button class="btn btn-warning" ng-click="deleteContact(contact.id)">delete</button>
+		  <button class="btn btn-default" ng-click="favoriteContact(contact)">favorite<i class="fa fa-star" aria-hidden="true"></i>
+          </button>
+		</div>
+	</div>
+  </div>
 </div>

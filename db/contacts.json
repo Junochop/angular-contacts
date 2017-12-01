@@ -88,7 +88,7 @@
 			"occupation": "producer",
 			"phoneNumber": 7026089796,
 			"email": "weda1@hotmail.com",
-			"isFavorite": false
+			"isFavorite": true
 		},
 		"contact9": {
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
@@ -98,7 +98,7 @@
 			"occupation": "Pro Athlete",
 			"phoneNumber": 7046129796,
 			"email": "3stephc@hotmail.com",
-			"isFavorite": false
+			"isFavorite": true
 		}
 	}
 

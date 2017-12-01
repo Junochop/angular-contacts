@@ -25,7 +25,7 @@ app.controller("ViewCtrl", function($location, $rootScope, $scope, contactServic
 
 
 	$scope.favoriteContact = (contact) => {
-		//contactId.uid = $rootScope.uid;
+		
 		contact.isFavorite = !contact.isFavorite;
 		delete contact.$$hashKey;
 
