@@ -7,7 +7,8 @@
 			"favoriteColor": "blue",
 			"occupation": "singer",
 			"phoneNumber": 7046089098,
-			"email": "cash@hotmail.com"
+			"email": "cash@hotmail.com",
+			"isFavorite": true
 		},
 		"contact1": {
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
@@ -16,7 +17,8 @@
 			"favoriteColor": "white",
 			"occupation": "singer",
 			"phoneNumber": 7076089796,
-			"email": "graceland@hotmail.com"
+			"email": "graceland@hotmail.com",
+			"isFavorite": true
 		},
 		"contact2": {
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
@@ -25,7 +27,8 @@
 			"favoriteColor": "black",
 			"occupation": "singer",
 			"phoneNumber": 7016089796,
-			"email": "zacbrown@hotmail.com"
+			"email": "zacbrown@hotmail.com",
+			"isFavorite": false
 		},
 		"contact3": {
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
@@ -34,7 +37,8 @@
 			"favoriteColor": "green",
 			"occupation": "chef",
 			"phoneNumber": 7026089796,
-			"email": "Abourd@hotmail.com"
+			"email": "Abourd@hotmail.com",
+			"isFavorite": false
 		},
 		"contact4": {
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
@@ -43,7 +47,8 @@
 			"favoriteColor": "orange",
 			"occupation": "Pro Athlete",
 			"phoneNumber": 7036089796,
-			"email": "CamCam@hotmail.com"
+			"email": "CamCam@hotmail.com",
+			"isFavorite": false
 		},
 		"contacts5": {
 			"uid": "jhyUOGSapcBebUxImQ2Hg26qyda82",
@@ -52,7 +57,8 @@
 			"favoriteColor": "green",
 			"occupation": "Hornets CEO",
 			"phoneNumber": 7049089796,
-			"email": "airjordan@hotmail.com"
+			"email": "airjordan@hotmail.com",
+			"isFavorite": false
 		},
 		"contact6": {
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
@@ -61,7 +67,8 @@
 			"favoriteColor": "yellow",
 			"occupation": "analyst",
 			"phoneNumber": 7045089796,
-			"email": "TntNBA@hotmail.com"
+			"email": "TntNBA@hotmail.com",
+			"isFavorite": false
 		},
 		"contact7": {
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
@@ -70,7 +77,8 @@
 			"favoriteColor": "sand",
 			"occupation": "CEO",
 			"phoneNumber": 703606996,
-			"email": "blkMamba@hotmail.com"
+			"email": "blkMamba@hotmail.com",
+			"isFavorite": false
 		},
 		"contact8": {
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
@@ -79,7 +87,8 @@
 			"favoriteColor": "purple",
 			"occupation": "producer",
 			"phoneNumber": 7026089796,
-			"email": "weda1@hotmail.com"
+			"email": "weda1@hotmail.com",
+			"isFavorite": true
 		},
 		"contact9": {
 			"uid": "hyUOGSapcBebUxImQ2Hg26qyda82",
@@ -88,7 +97,8 @@
 			"favoriteColor": "pink",
 			"occupation": "Pro Athlete",
 			"phoneNumber": 7046129796,
-			"email": "3stephc@hotmail.com"
+			"email": "3stephc@hotmail.com",
+			"isFavorite": true
 		}
 	}
 
