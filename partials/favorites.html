@@ -1,14 +1,14 @@
 <div class="text-center" id="favorites" ng-controller="FavoritesCtrl">	
 	<h1>Favorites</h1>
 	<div id="favorite">
-      <div ng-repeat="favorite in favorites" class="col-sm-6 col-md-4 favorite">
+      <div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 favorite">
         <div class="thumbnail">
         	<div class="cardInfoFavorite">
-			  <h5>Name: {{favorite.firstName}} {{favorite.lastName}}</h5>
-			  <p>Phone: {{favorite.phoneNumber}}</p>
-			  <p>Email: {{favorite.email}}</p>
-			  <p>Favorite Color: {{favorite.favoriteColor}}</p>
-			  <p>Occupation: {{favorite.occupation}}</p>		
+			  <h5>Name: {{contact.firstName}} {{contact.lastName}}</h5>
+			  <p>Phone: {{contact.phoneNumber}}</p>
+			  <p>Email: {{contact.email}}</p>
+			  <p>Favorite Color: {{contact.favoriteColor}}</p>
+			  <p>Occupation: {{contact.occupation}}</p>		
 			</div>
         	
 		  <button class="btn btn-warning" ng-click="deleteContact(favorite.id)">delete</button>
