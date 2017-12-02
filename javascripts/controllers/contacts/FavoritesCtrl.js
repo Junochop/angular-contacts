@@ -10,7 +10,8 @@ app.controller("FavoritesCtrl", function($location, $rootScope, $scope, contactS
       });
     };
 
-    getFavorites();
+	getFavorites();
+    
 
 	$scope.deleteContact = (contactId) => {
       contactService.deleteContact(contactId).then((result) =>{
@@ -30,6 +31,6 @@ app.controller("FavoritesCtrl", function($location, $rootScope, $scope, contactS
       });
     };
 	
-	
+
  
 });

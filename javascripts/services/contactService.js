@@ -22,13 +22,13 @@ app.service("contactService", function($http, $q, FIREBASE_CONFIG){
     };
 
     const getFavoritesDB = (userUid) => {
- 	let contacts = [];
- 	return $q((resolve, reject) => {
- 	$http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
+ 	  let contacts = [];
+ 	  return $q((resolve, reject) => {
+ 	  $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
  		let fbContacts = results.data;
- 		Object.keys(fbContacts).forEach((key) => {					      
- 		fbContacts[key].id = key;  				
- 		if(!fbContacts[key].isFavorite) {
+ 		Object.keys(fbContacts).forEach((key) => {					      		 				
+ 		if(fbContacts[key].isFavorite) {
+ 		  fbContacts[key].id = key; 
  		  contacts.push(fbContacts[key]);
  		  }					
  		});
