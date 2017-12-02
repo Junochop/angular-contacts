@@ -1,10 +1,12 @@
 <div class="text-center" id="favorites">	
 	<h1>Favorites</h1>
 	<div id="favorite">
-      <div ng-repeat="contact in contacts" class="col-sm-6 col-md-4 favorite">
+      <div ng-repeat="favorite in isfavorite" class="col-sm-6 col-md-4 favorite">
         <div class="thumbnail">
-		  <button class="btn btn-warning" ng-click="deleteContact(contact.id)">delete</button>
-		  <button class="btn btn-default" ng-click="favoriteContact(contact)">favorite<i class="fa fa-star" aria-hidden="true"></i>
+
+        	
+		  <button class="btn btn-warning" ng-click="deleteContact(favorite.id)">delete</button>
+		  <button class="btn btn-default" ng-click="updateFavorite(favorite)">favorite<i class="fa fa-star" aria-hidden="true"></i>
           </button>
 		</div>
 	</div>

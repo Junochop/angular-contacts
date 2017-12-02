@@ -21,25 +21,25 @@ app.service("contactService", function($http, $q, FIREBASE_CONFIG){
         });
     };
 
-    const getFavListContacts = (userUid) => {
-	let contacts = [];
-	return $q((resolve, reject) => {
-	$http.get(`${FIREBASE_CONFIG.databaseURL}/conctacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
-		let fbContacts = results.data;
-		Object.keys(fbContacts).forEach((key) => {					
-		fbContacts[key].id = key;  				
-		if(!fbContacts[key].isFavorite) {
-		  contacts.push(fbContacts[key]);
-		  }					
-		});
-		
-		resolve(contacts);
-		}).catch((err) => {
-		reject(err);
-		});
-
-  		});
- 	};
+    const getFavoritesDB = (userUid) => {
+ 	let contacts = [];
+ 	return $q((resolve, reject) => {
+ 	$http.get(`${FIREBASE_CONFIG.databaseURL}/contacts.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
+ 		let fbContacts = results.data;
+ 		Object.keys(fbContacts).forEach((key) => {					      
+ 		fbContacts[key].id = key;  				
+ 		if(!fbContacts[key].isFavorite) {
+ 		  contacts.push(fbContacts[key]);
+ 		  }					
+ 		});
+ 		
+ 		resolve(contacts);
+ 		}).catch((err) => {
+ 		reject(err);
+ 		});
+ 
+   	});
+  	};
 
     const addNewContact = (newContact) => {
         console.log("newContact", newContact);
@@ -50,13 +50,13 @@ app.service("contactService", function($http, $q, FIREBASE_CONFIG){
         return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
     };
 
-    const favoriteContact = (contactId) => {
-        return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
+    const updateFavorite = (contactId, contact) => {
+        return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`,  JSON.stringify(contact));
     };
 
     
     const putNewContact = (newContact) => {
-  		return $http.post(`${FIREBASE_CONFIG.databaseURL}/contacts.json`, JSON.stringify(newContact));
+  		return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts.json`, JSON.stringify(newContact));
     };
 
 
@@ -74,7 +74,7 @@ app.service("contactService", function($http, $q, FIREBASE_CONFIG){
 	};
 
 
-    return {addNewContact, getContacts, deleteContact, favoriteContact, putNewContact, createContactObject, getFavListContacts };
+    return {addNewContact, getContacts, deleteContact, updateFavorite, getFavoritesDB, putNewContact, createContactObject};
 });
 
 

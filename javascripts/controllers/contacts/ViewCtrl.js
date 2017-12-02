@@ -2,9 +2,10 @@
 'use strict';
 
 app.controller("ViewCtrl", function($location, $rootScope, $scope, contactService){
-	$scope.contacts = [];
+	
 
 	const getContacts = () => {
+		$scope.contacts = [];
 		contactService.getContacts($rootScope.uid).then((results) =>{
 			$scope.contacts = results;
 		}).catch((err) =>{
@@ -24,23 +25,13 @@ app.controller("ViewCtrl", function($location, $rootScope, $scope, contactServic
 
 
 
-	$scope.favoriteContact = (contact) => {
+	$scope.updateFavorite = (contact) => {
 		
 		contact.isFavorite = !contact.isFavorite;
 		delete contact.$$hashKey;
-
-		let newFavoriteContact = contactService.createContactObject(contact);
-		console.log("Contact", contact);
-		//
-		
-		contactService.putNewContact(contact).then((result) => {
-			$location.path('/contacts/favorites');
-		}).catch((err) => {
-			console.log("error in putNewContact", err);
-		});
-
-	
+		contactService.updateFavorite(contact.id, contact);
 	};
-
+		
+	
 
 });

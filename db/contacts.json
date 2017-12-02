@@ -8,7 +8,7 @@
 			"occupation": "singer",
 			"phoneNumber": 7046089098,
 			"email": "cash@hotmail.com",
-			"isFavorite": false
+			"isFavorite": true
 		},
 		"contact1": {
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
@@ -18,7 +18,7 @@
 			"occupation": "singer",
 			"phoneNumber": 7076089796,
 			"email": "graceland@hotmail.com",
-			"isFavorite": false
+			"isFavorite": true
 		},
 		"contact2": {
 			"uid": "kMdcsUYmE0QBVALSHlLU81wLuK53",
